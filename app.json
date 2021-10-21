@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "CRUD_TEST",
+    "slug": "CRUD_TEST",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "CRUD_TEST"
+}
