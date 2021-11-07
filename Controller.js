@@ -94,7 +94,7 @@ app.get('/create-recompensa',async (req,res)=>{
     res.send('Recompensa criada com sucesso!');
 });
 
-app.get('/read', async (req,res)=>{ read-sorteados
+app.get('/read', async (req,res)=>{
     let read=await user.findAll({
         raw:true,
     });

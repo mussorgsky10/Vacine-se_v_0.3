@@ -7,6 +7,7 @@ import Clientes from './screens/clientes'
 import CadastroClientes from './screens/cadastro'
 import CadastroRecompensas from './screens/cadastroRecompensas'
 import RecompensaScreen from './screens/recompensas'
+import QrCodeGenerator from './screens/QrCodeGenerator' 
 
 
 function HomeScreen({ navigation }) {
@@ -53,6 +54,7 @@ export default function App() {
         <Drawer.Screen name="Clientes" component={Clientes} />
         <Drawer.Screen name="Cadastro de Recompensas" component={CadastroRecompensas} />
         <Drawer.Screen name="Recompensas" component={RecompensaScreen} />
+        <Drawer.Screen name="Gerador de QrCode" component={QrCodeGenerator} />
       </Drawer.Navigator>
     </NavigationContainer>
   );
